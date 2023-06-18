@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite">
+  <test name="SmokeTest">
+    <classes>
+      <class name="com.paragonqa.baseClass.BaseClass"/>
+      <class name="com.paragonqa.tests.LogoutTest"/>
+      <class name="com.paragonqa.tests.DashBoardTest"/>
+      <class name="com.paragonqa.tests.OnboardingTest"/>
+      <class name="com.paragonqa.tests.LoginTest"/>
+    </classes>
+  </test> <!-- SmokeTest -->
+</suite> <!-- SmokeSuite -->
